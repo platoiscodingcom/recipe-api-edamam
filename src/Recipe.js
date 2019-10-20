@@ -5,7 +5,7 @@ const Recipe = ({title, calories, image, ingredients, dietLabels}) => {
   const listDietLabels = dietLabels.map((label) => <p>{label.text + `  `}</p>);
   const listIngr = ingredients.map((ingredient) => <li>{ingredient.text}</li>);
   return (
-    <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+    <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
     <div className="card">
         <img src={image} alt=""/>
         <div className="card-body">

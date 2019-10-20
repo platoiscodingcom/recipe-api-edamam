@@ -9,11 +9,11 @@ body{
   font-family: "Playfair Display","Raleway","Helvetica Neue",Arial,sans-serif;
 }
 .gallery{
-  margin-top:30px;
+  margin-top:10px;
 }
 
 .card{
-  background-color:  #21252b !important;
+  background-color:  #21252b;
   border-radius: 10px;
   box-shadow: -18px 19px 31px rgba(0, 0, 0, 0.8);
   margin: 20px;
